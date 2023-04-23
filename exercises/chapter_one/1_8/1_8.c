@@ -1,4 +1,5 @@
 //Write a program to count blanks, tabs and newlines
+//Hard to trigger EOF unless ctrl-D
 #include <stdio.h>
 
 int main() {	
@@ -7,10 +8,10 @@ int main() {
 
 	while((c = getchar()) != EOF){
 		if(c == '\n' || c == ' ' || c == '\t'){
-			++c;
+			++count;
 		}
 	}
-	return 0;
+	printf("The total count for blanks, tabs and newlines is: %d\n", count); 	
 }
 
 
