@@ -1,1 +1,4 @@
+# ignore any executables
 *.out
+# ignore any files that are just me messing around
+sandbox/
