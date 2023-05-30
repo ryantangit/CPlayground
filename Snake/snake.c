@@ -5,7 +5,7 @@
 #define ARENA_HEIGHT 50
 
 void prompt(){
-	int c;
+	int c, b;
 	printf("Enter a name: \n");
 	while(EOF != (c = getchar())){
 		putchar(c);	
